@@ -34,6 +34,17 @@
             top: 0;
             z-index: 1000;
         }
+        .logo-link {
+            position: fixed; /* लोगो को स्क्रीन पर एक जगह स्थिर करता है */
+            top: 10px; /* ऊपर से दूरी (अपनी ज़रूरत के हिसाब से बदलें) */
+            left: 10px; /* बाएं से दूरी (अपनी ज़रूरत के हिसाब से बदलें) */
+            z-index: 1000; /* सुनिश्चित करता है कि लोगो बाकी सभी चीज़ों के ऊपर दिखाई दे */
+        }
+
+        .logo-image {
+            height: 60px; /* लोगो की ऊँचाई (अपनी ज़रूरत के हिसाब से बदलें) */
+            width: auto;
+        }
 
         .logo {
             font-family: 'Times New Roman', serif;
@@ -172,6 +183,9 @@
 <body>
 
 <header class="header">
+        <a href="index.html" class="logo-link">
+            <img src="RamLogo.png" alt="Bhakti Website Logo" class="logo-image">
+        </a>
         <a href="#home" class="logo">Kalaki Ram Arts</a>
 
         <nav class="nav">
@@ -186,6 +200,16 @@
         <h2>Latest Art's Gallery</h2>
         <p>हमारी नवीनतम और सबसे आकर्षक कलाकृतियाँ देखें।</p>
         <div class="gallery-grid">
+            <div class="art-item">
+                <img src="Sita Ram Ji.png" alt="Sita Ram Ji">
+                <h1>Sita Ram Ji Ka Atut Bandhan</h1>
+                <h3> 350₹ Digital Print Online </h3>
+                <h2>ऑर्डर के लिए संपर्क करें</h2>
+                <p>किसी भी Custom Devotional Sketch या सेवा के लिए संपर्क करें।</p>
+                <p>Email: **[<a href="#">multitaskerjaa8@gmail.com</a>]**</p>
+                <p>WhatsApp: **[<a href="#">7895227827</a>]**</p>
+            </div>
+            
             <div class="art-item">
                 <img src="Shri Ram Ji Gilahari sang.jpeg" alt="प्रभु राम और गिलहरी">
                 <h1>राम का सौम्य प्रेम</h1>
@@ -262,7 +286,17 @@
         <h2>Ram Art's</h2>
         <p>भगवान राम से संबंधित अद्भुत कला का संग्रह।</p>
          <div class="gallery-grid">
-         <div class="art-item">
+            <div class="art-item">
+                <img src="Sita Ram Ji.png" alt="Sita Ram Ji">
+                <h1>Sita Ram Ji Ka Atut Bandhan</h1>
+                <h3> 350₹ Digital Print Online </h3>
+                <h2>ऑर्डर के लिए संपर्क करें</h2>
+                <p>किसी भी Custom Devotional Sketch या सेवा के लिए संपर्क करें।</p>
+                <p>Email: **[<a href="#">multitaskerjaa8@gmail.com</a>]**</p>
+                <p>WhatsApp: **[<a href="#">7895227827</a>]**</p>
+            </div>
+             
+             <div class="art-item">
                 <img src="Shri Ram ji.jpeg" alt="प्रभु राम का चित्र">
                 <h1>प्रभु राम का चित्र</h1>
                 <h3> 250₹ Digital Print Online </h3>
@@ -294,7 +328,17 @@
         <h2>Ramayan Points Art's</h2>
         <p>रामायण के महत्वपूर्ण, प्रेरणादायक दृश्यों और बिंदुओं पर आधारित कला।</p>
          <div class="gallery-grid">
-              <div class="art-item">
+            <div class="art-item">
+                <img src="Sita Ram Ji.png" alt="Sita Ram Ji">
+                <h1>Sita Ram Ji Ka Atut Bandhan</h1>
+                <h3> 350₹ Digital Print Online </h3>
+                <h2>ऑर्डर के लिए संपर्क करें</h2>
+                <p>किसी भी Custom Devotional Sketch या सेवा के लिए संपर्क करें।</p>
+                <p>Email: **[<a href="#">multitaskerjaa8@gmail.com</a>]**</p>
+                <p>WhatsApp: **[<a href="#">7895227827</a>]**</p>
+            </div>
+             
+            <div class="art-item">
                 <img src="Shri Ram Ji Gilahari sang.jpeg" alt="प्रभु राम और गिलहरी">
                 <h1>राम का सौम्य प्रेम</h1>
                 <h3> 250₹ Digital Print Online </h3>
@@ -304,7 +348,7 @@
                 <p>WhatsApp: **[<a href="#">7895227827</a>]**</p>
             </div>
 
-             <div class="art-item">
+            <div class="art-item">
                 <img src="SitaRam or Hanuman.jpeg" alt="हनुमान जी का चित्र">
                 <h1>सेवक का विराट रूप</h1>
                 <h3> 250₹ Digital Print Online </h3>
@@ -314,7 +358,7 @@
                 <p>WhatsApp: **[<a href="#">7895227827</a>]**</p>
             </div>
 
-              <div class="art-item">
+            <div class="art-item">
                 <img src="Ram Hanuman Milan.jpeg" alt="राम और हनुमान का मिलन">
                 <h1>प्रेम और समर्पण</h1>
                 <h3> 250₹ Digital Print Online </h3>
@@ -324,7 +368,7 @@
                 <p>WhatsApp: **[<a href="#">7895227827</a>]**</p>
             </div>
 
-             <div class="art-item">
+            <div class="art-item">
                 <img src="Ram Lakshaman or Hanuman.jpeg" alt="राम, लक्ष्मण और हनुमान">
                 <h1>समर्पण राम, लक्ष्मण और हनुमान</h1>
                 <h2>ऑर्डर के लिए संपर्क करें</h2>
@@ -348,6 +392,7 @@
 </body>
 
 </html>
+
 
 
 
